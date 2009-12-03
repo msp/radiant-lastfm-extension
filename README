@@ -1,0 +1,6 @@
+= Lastfm
+
+Radiant extension to allow access to the http://last.fm api. Requires the scrobbler gem:
+
+`sudo gem install scrobbler'
+
