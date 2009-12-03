@@ -4,3 +4,16 @@ Radiant extension to allow access to the http://last.fm api. Requires the scrobb
 
 `sudo gem install scrobbler'
 
+= Example
+
+  <r:lastfm user="polymorphic">
+    <table>
+      <r:tracks:each>
+        <tr>
+          <td><r:track:artist /></td>
+          <td><a href="<r:track:url />"><r:track:name /></a></td>
+        </tr>
+      </r:tracks:each>
+    </table>
+  </r:lastfm>
+
